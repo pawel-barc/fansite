@@ -1,0 +1,206 @@
+body{
+	background-image: url(https://i.pinimg.com/736x/01/25/30/012530478a3d217c0ab89b4e447ad23d.jpg);
+	margin: 0px;
+}
+.container{
+	display: flex;
+	background-color: orange;
+	flex-direction: row;
+ 	justify-content: space-between;
+ 	align-items:center;
+	width: 1180px;
+	height: 30px;
+	grid-row-gap: 10px;    /*définit la taille des espaces entre les lignes d'un élément.*/
+	border-radius: 10px;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container a:hover{   /*permet d'appliquer un style lorsqu'un élément est survolé par le curseur de la souris.*/
+	background-color: rgb(95, 95, 95);}
+a{
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: black;
+}
+input{
+	border-radius: 5px;
+}
+button{
+	background-color: #FFBE00;
+	border-radius: 5px;
+}
+h1{
+	font-family: "frijole", static;   /*  retrouvé dans google-fonts*/
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+.trailer{
+	width: 500px;
+	height: 281px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.F1{
+	margin-top: 20px;
+	height: 260px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+.T1{
+	height: 255px;
+	width: 410px;
+	background-color: #FFBE00;
+	font-size: 19px;
+	padding-left : 180px;
+	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;   /* d.block+margins auto=centrage d'un element*/
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+h3{
+	width: 1000px;
+	height: 410px;
+	background-color: #FFBE00;
+	border: groove 8px black;
+	margin: 100px auto;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+article{
+	width: 1000px;
+	height: 210px;
+	background-color: #FFBE00;
+	border: ridge 5px brown;
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	color: brown;
+	border-radius: 10px;
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;  /*permet de placer les contenus à la ligne plutôt que de forcer leur largeur pour les faire rentrer.*/
+	height: 700px;
+	width: 100%;
+	background-color: #FFBE00;
+	justify-content: space-around;
+	text-align: right;
+}
+.SP{
+	font-weight: bold;
+	margin-left: 50px;
+	font-family: arial;
+	font-size: 22px;
+}
+.box1 .box2 .box3 .box4{
+	height: 280px;
+	width: 162px;
+	background-color: silver;
+}
+.F2{
+	border-radius: 10px;
+}
+.Lien a:hover{      /*hover est une pseudo-classe*/
+	background-color: violet;
+}
+.box5{
+	height: 350px;
+	width: 300px;
+	background-color: orange;
+	border-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;   /*définit la hauteur de la boîte d'une ligne*/
+}
+.box6{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: orange;
+	text-align: left;
+	font-size: 16px;
+}
+strong{
+line-height: 23px;
+color: blue;
+}
+.quiz1, .quiz2, .quiz3{
+	width: 280px;
+	background-color: transparent;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-top: 60px;
+	list-style-type: none;
+}
+span{
+text-align: left;
+}
+.Lien{
+	height: 280px;
+	width: 162px;
+	font-size: 16px;
+}
+
+.El1{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	background: orange;   
+	width: 1180px;
+	height: 60px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+
+}
+
+.twit, .fb, .insta, .wiki, .github{
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.call{
+	text-align: center;
+	padding: 10px;
+	background-color: orange;
+	font-size: 20px;
+	margin: 10px;
+	margin-left: 30px;
+}
+.tel{
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 100px;
+}
+h4{
+	margin-left: 280px;
+	padding-top: 20px;
+}
+.formulaire, .form{
+    text-align: center;
+}

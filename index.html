@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style_css/style.css">
+	<title> Le Loup De Wall Street</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="container">
+				<!--grace a container dans le div je peut utiliser flex-box-->
+				<a href= "index.html" title="Acceuil"> Acceuil</a>
+				<a href= "Souspages/le film.html" title="le film"> Le Film</a>
+				<a href= "Soupages/Jordan Belfort.html" title="Jordan Belfort"> Jordan Belfort</a>
+				<a href= "Souspages/Leonardo DiCaprio.html" title="Leonardo DiCaprio">Leonardo DiCaprio</a>
+				<a href= "Souspages/tournage.html" title="Tournage & Anegdotes"> Tournage & Anegdotes</a>
+				<a href= "Souspages/contact.html" title="Contact.html"> Contact</a>
+				<label for= "site-search"> Rechercher: </label>
+				<input type="text" id="site-search" name="search">
+				<button>Go!</button>
+			</div>	
+		</nav>
+	</header>
+		<main>
+			<section>
+				<h1><div class="sujet"> LE LOUP DE WALL STREET</div></h1>
+			</section>
+			<div class="wraper">
+				<img src="https://www.washingtonpost.com/blogs/style-blog/files/2013/06/leo3.gif">
+				<!--inserer un gif se deroule exactement pareil comme inserer une image-->
+				<h3>Le Loup de Wall Street (The Wolf of Wall Street) est un film américain réalisé par Martin Scorseseet sorti en 2013. Inspiré d'une histoire réelle, il raconte l'ascension vers la fortune d'un courtier en bourse, Jordan Belfort, interprété par Leonardo DiCaprio, et ses malversations au cœur des années 1980, le menant à la chute et à une forme de rédemption. Adaptation de l'autobiographie homonyme de Jordan Belfort, il s'agit du plus gros succès commercial de Martin Scorsese. </h3>
+				<form method="post" action="traitement php">
+					<fieldset id="section1">
+						<legend>Informations personnelles</legend>
+						<label for="prenom"> Entrez votre prenom</label>
+						<input type="text" name="prenom" id="prenom" ><br>
+						<label for="nom"> Entrez votre nom</label>
+						<input type="text" name="nom" id="nom" ><br>
+						<label for="pseudo"> Choisissez votre pseudonyme</label>
+						<input type="text" name="pseudo" id="pseudo">
+					</fieldset>
+					<fieldset id="section2">
+						<!-- La balise fieldset permet de regrouper plusieurs éléments du formulaires-->
+						<legend>Informations supplémentaires</legend>
+						Qu'est-ce qui vous inspire dans le film?<br>
+						<input type="checkbox" name="inspiration" value= "action" id="action" >
+						<label for="action"> action</label>
+						<input type="checkbox" name="inspiration" value= "histoire vraie" id="histoire vraie" >
+						<label for="histoire vraie"> histoire vraie</label>
+						<input type="checkbox" name="inspiration" value= "jeu d'acteurs" id="jeu d'acteurs" >
+						<label for="jeu d'acteurs"> jeu d'acteur</label>
+						<input type="checkbox" name="inspiration" value= "l'autre" id="l'autre" >
+						<label for="l'autre"> l'autre</label>
+					</fieldset>
+					<input type="submit" value ="Envoyer">
+					<!--Le prochain etape pour mettre le formulaire en marche s'effectuera avec php-->
+				</form>
+			</div>
+		</main>
+		<footer>
+			<nav>
+				<div class= "El1"><!--Dans le footer on peut inserer aussi le nom d'entreprise et le createur de la page-->
+					<a href="https://www.facebook.com/LeLoupdeWallStreet/?locale=fr_FR" target= "blank"title="facebook">
+					<img class= "fb" src= "Images/fb.png"></a>
+					<a href="https://www.instagram.com/viewsfrance/p/C1UkriLMBeM/?img_index=1" target= blank title="instagram">
+					<img class= "insta" src="Images/insta.png"></a>
+					<a href="https://twitter.com/viewsfrance/status/1739673438036295873" target="blank" title="twitter">
+					<img class="twit" src="Images/twit.png">
+					<a href="https://fr.wikipedia.org/wiki/Le_Loup_de_Wall_Street" target= blank title="wikipedia">
+					<img class= "wiki" src="Images/wiki.jpg"></a>
+					<a href="https://github.com/pawel-barc" target= blank title="welcome to GITHub">
+					<img class= "github" src="Images/GITHub.png"></a>
+					<!--target=blank ouvre le lien dans une nouvelle page-->
+					<img class="tel"src="Images/contact.jpg">
+					<a class="call" href="tel:0786578232" target=blank title="appeler">0786578232</a>
+					<h4>designed by Pawel Barc</h4>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>
